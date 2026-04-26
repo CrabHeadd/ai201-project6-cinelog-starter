@@ -32,6 +32,7 @@ def save_to_watchlist(user_id, film_id):
         FilmNotFoundError: If film_id does not exist.
     """
 <<<<<<< HEAD
+<<<<<<< HEAD
     film = db.session.get(Film, film_id)
     if film is None:
         raise FilmNotFoundError(f"No film found with id '{film_id}'")
@@ -46,6 +47,9 @@ def save_to_watchlist(user_id, film_id):
 
 =======
     film = Film.query.get(film_id)
+=======
+    film = db.session.get(Film, film_id)
+>>>>>>> 7c37bcd (fix: update film retrieval method to use db.session.get in collection and watchlist services)
     if film is None:
         raise FilmNotFoundError(f"No film found with id '{film_id}'")
 
