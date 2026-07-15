@@ -16,4 +16,8 @@ venv/
 =======
 .venv/
 venv/
+<<<<<<< HEAD
 >>>>>>> d81965f (chore: changed save_to_watchlist to add_to_watchlist)
+=======
+>>>>>>> 027e63f28f6e896c110cc0e8371c663a49dc3275
+>>>>>>> a1f0db9e1ed80a2e47e1c5978aa74f38bf1fdff3
