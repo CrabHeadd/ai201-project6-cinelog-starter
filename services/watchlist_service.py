@@ -9,6 +9,9 @@ from models import Film, WatchlistEntry
 from services.collection_service import FilmNotFoundError
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7de99ad (feat: Handling duplicate movies in watchlist)
 class AlreadyInWatchlistError(Exception):
     """Raised when a film is already in the user's watchlist."""
     pass
@@ -49,6 +52,7 @@ def add_to_watchlist(user_id, film_id):
             f"Film '{film_id}' is already in this user's watchlist"
         )
 
+<<<<<<< HEAD
 =======
     film = Film.query.get(film_id)
 =======
@@ -58,6 +62,8 @@ def add_to_watchlist(user_id, film_id):
         raise FilmNotFoundError(f"No film found with id '{film_id}'")
 
 >>>>>>> ec90edb (added watchlist model and endpoint)
+=======
+>>>>>>> 7de99ad (feat: Handling duplicate movies in watchlist)
     entry = WatchlistEntry(user_id=user_id, film_id=film_id)
     db.session.add(entry)
     db.session.commit()
