@@ -17,7 +17,9 @@ from services.collection_service import (
     AlreadyInCollectionError,
     NotInCollectionError,
 )
-
+from services.watchlist_service import (
+    add_to_watchlist,
+)
 
 @pytest.fixture
 def app():
@@ -137,3 +139,5 @@ def test_get_collection_returns_newest_first(app, sample_user):
         # Blade Runner was added later, so it should come first
         assert titles[0] == "Blade Runner"
         assert titles[1] == "Alien"
+
+
