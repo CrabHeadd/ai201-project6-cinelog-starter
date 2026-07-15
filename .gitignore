@@ -5,6 +5,7 @@ instance/
 __pycache__/
 *.pyc
 <<<<<<< HEAD
+<<<<<<< HEAD
 .pytest_cache/
 .venv/
 venv/
@@ -12,3 +13,7 @@ venv/
 .venv/
 venv/
 >>>>>>> d81965f (chore: changed save_to_watchlist to add_to_watchlist)
+=======
+.venv/
+venv/
+>>>>>>> 027e63f28f6e896c110cc0e8371c663a49dc3275
