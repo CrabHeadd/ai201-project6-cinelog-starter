@@ -16,8 +16,12 @@ class AlreadyInWatchlistError(Exception):
 def add_to_watchlist(user_id, film_id):
 =======
 
+<<<<<<< HEAD
 def save_to_watchlist(user_id, film_id):
 >>>>>>> ec90edb (added watchlist model and endpoint)
+=======
+def add_to_watchlist(user_id, film_id):
+>>>>>>> d81965f (chore: changed save_to_watchlist to add_to_watchlist)
     """
     Save a film to a user's watchlist.
 
