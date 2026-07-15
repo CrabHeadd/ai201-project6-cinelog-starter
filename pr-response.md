@@ -1,7 +1,7 @@
 # PR Response Doc — CineLog Watchlist Feature
 
 ## AI Usage
-<!-- Fill in at the end — how you used AI tools during this project -->
+no ai used, simple enough project
 
 ## Comment 1 — Rename
 **What I did:**
@@ -41,8 +41,11 @@ Alphabetical order ensures that old movies that have been sitting in the watchli
 
 ## Comment 6 — Rebase
 **What conflicted:**
+A lot of my files had to be added on
 **How I resolved it:**
+Added my files
 **How I verified no conflict remains:**
+through github desktop
 
 ## PR Description
 <!-- Written at the end — feature overview, design decisions, manual testing steps -->
